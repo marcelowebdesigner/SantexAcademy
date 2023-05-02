@@ -4,6 +4,7 @@ body {
 p {
     margin-right: 40px;
     font-weight: bold;
+    font-family: 'Inter', sans-serif;
 }
 h1 {
     margin: 0px 400px;
