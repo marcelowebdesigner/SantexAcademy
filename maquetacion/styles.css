@@ -15,6 +15,15 @@ button.redondo {
     padding: 0px 20px;
     height: 32px;
 }
+
+span.labelSumate {
+    color: var(--awb-color5);
+}
+
+button.btnSumate {
+    border-color: var(--awb-color5);
+}
+
 div#introduction-actions {
     display: flex;
     justify-content: center;
