@@ -3,6 +3,7 @@ body {
 }
 p {
     margin-right: 40px;
+    font-weight: bold;
 }
 h1 {
     margin: 0px 400px;
@@ -29,7 +30,7 @@ div#introduction-actions {
     justify-content: center;
 }
 
-div#header {
+div#navbar {
     border-bottom: 1px solid gray; 
     display: flex; 
     width: 1200px;
@@ -37,7 +38,7 @@ div#header {
     justify-content: space-between;
 }
 
-div#header-right {
+div#navbar-right {
     display: flex; 
     align-items: center;
 }
