@@ -12,19 +12,23 @@ p {
     font-size: 0.9em;
 }
 h1 {
-    margin: 0px 400px;
-    text-align: center;
+    font-size: 2em;
+    
 }
-button.redondo {
+button#btnContactanos {
     background-color: white;
-    border: 1px solid rgb(0, 0, 0);
-    border-radius: 25px;
-    padding: 0px 20px;
-    height: 32px;
+    border-radius: 30px;
+    padding: 0px 1em;
+    line-height: 14px;
+    margin: 0px 15px;
+    font-size: 0.8em;
+    border: 2px solid black ;
+    height: 2.5em;
+    width: 10em;
 }
 
-span.labelSumate {
-    color: var(--awb-color5);
+span#labelSumate {
+    color: purple;
 }
 
 button#btnSumate {
@@ -33,7 +37,7 @@ button#btnSumate {
     padding: 0px 1.5em;
     line-height: 14px;
     font-size: 0.8em;
-    border: 2px solid black ;
+    border: 2px solid purple ;
     height: 2.5em;
     width: 8em;
 }
@@ -41,6 +45,19 @@ button#btnSumate {
 div#introduction-actions {
     display: flex;
     justify-content: center;
+    padding: 1em;
+    font-weight: 400;
+}
+
+div#introduction #introduction-text #text{
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    text-align: center;
+    display: block;
+    padding: 40px 320px;
+    font-size: 1.9em;
 }
 
 div#navbar {
@@ -58,6 +75,40 @@ div#navbar-right {
 div#navbar-left img{
     width: 8em;
     padding: 1.5em;
+}
+
+div#contenedor {
+    background-color: black;
+    padding: 40px 300px;
+    justify-content:center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+div#contenedor > div {    
+    column-width: auto; 
+  }
+
+p#fuente {
+    color: white;
+    width: 50%;
+}
+
+h2#fuente {
+    color: white;
+
+}
+
+h2#numero {
+    color: white;
+
+}
+
+
+div#footer {
+    background-color: black;
+    padding: 4em;
 }
 
 @media(width>=2500px){
